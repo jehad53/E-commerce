@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    font-family: "lbc", sans-serif;
+}
+
+.navbar {
+    background-color: #996d4c !important;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+.designIcon {
+    color: white;
+    font-size: 30px;
+}
+
+.carousel-caption{
+    background-color: rgba(247, 123, 0, 0.4);
+    border-radius: 30px;
+    bottom: 60px;
+    padding: 30px;
+    margin: 20px;
+    width: 30%;
+    margin:auto ;
+}
+
+.carousel-caption:hover{
+    background-color: rgb(108, 54, 0 ,0.9);
+    border-radius: 30px;
+    transition: ease .7s
+}
+
+.btn-dark:hover {
+    background-color: crimson !important;
+    border-radius: 18px;
+    transition:  ease all 0.5s;
+}
+
+.carousel-indicators button{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    border: solid;
+    background-color: rgba(244, 127, 9, 0.482) !important;
+}
+
+.carousel-indicators button:hover{
+    background-color: rgba(168, 84, 0, 0.808) !important;
+
+}
+ /*offcanvas */
+.offcna-img 
+{
+width: 250px !important;
+height: 300px !important;
+}
+
+.offcna-img:hover{
+    transform: skew(-5deg);
+    transition: ease all 1s;
+}
+
+/* Product */
+.text-header {
+    border-bottom: #996d4c solid 5px;
+}
+
+.rate:hover{
+color: crimson !important;
+transition: ease all 1s;
+cursor: pointer !important;
+}
+ 
+.card{
+   overflow: hidden;
+}
+
+.card img{
+    height: 300px;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    transition: ease all 1s;
+
+}
+
+/*contact*/
+.contact{
+    height: 60vh;
+    background: url(../Images/coffee-cover2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+} 
+
+.accordion-button {
+    display: flex !important;
+    justify-content: center !important;
+    color: white !important;
+    background-color:#996d4c  !important;
+}
+
+.accordion-button::after{
+    display: none;
+}
+
+
+footer{
+    background-color: #996d4c !important;
+}
